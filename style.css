@@ -10,8 +10,20 @@ body {
 span {
     color: #147435;
 }
+#start-btn {
+    width: 100px;
+    display: block;
+    font-size: 1.4rem;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #147435;
+    border: 1px solid grey;
+    box-shadow: 0 2px 2px #d6d6d6;
+    padding: 10px;
+}
 #main-header {
-    margin: 50px;
+    margin: 10px auto;
+    width: 85%;
     font-family: 'Rampart One', cursive;
     font-size: 5rem;
     color: white;
