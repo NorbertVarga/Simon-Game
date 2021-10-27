@@ -22,7 +22,8 @@ span {
     padding: 10px;
 }
 #main-header {
-    margin: 10px;
+    margin: 10px auto;
+    width: 85%;
     font-family: 'Rampart One', cursive;
     font-size: 5rem;
     color: white;
