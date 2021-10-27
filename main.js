@@ -12,6 +12,13 @@ $(document).keypress(function() {
         started = true;
     }
 });
+$("#start-btn").click(function() {
+    if (!started) {
+        $("#main-header").text("Level " + level);
+        nextSequence();
+        started = true;
+    }
+});
 
 $(".game-button").click(function(){
     let userChosedColor = $(this).attr("id");
